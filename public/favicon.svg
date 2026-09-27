@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d5df1"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="url(#g)"/>
+  <!-- 胶片帧沿对角线切开、两半错开：拆帧 -->
+  <path d="M3 8h10.5L16.5 26H3z" fill="#fff" opacity=".95"/>
+  <path d="M16.5 6H29v18h-9.5z" fill="#fff" opacity=".82"/>
+  <circle cx="6.2" cy="13" r="1.4" fill="url(#g)"/>
+  <circle cx="10.5" cy="20.5" r="1.4" fill="url(#g)"/>
+  <circle cx="24.5" cy="11" r="1.6" fill="url(#g)"/>
+  <!-- 剪切虚线 -->
+  <path d="M14.3 3L18.7 29" stroke="#fff" stroke-width="1.5" stroke-dasharray="3 2.5" stroke-linecap="round" opacity=".9" fill="none"/>
+</svg>

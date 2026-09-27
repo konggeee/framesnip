@@ -1,0 +1,27 @@
+{
+  "name": "framesnip",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "拆帧大师 FrameSnip —— 视频转序列帧动画 / GIF / APNG / 精灵图 / MP4 / WebM，浏览器端一站式工具（去水印 / 智能抠图）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/selfie_segmentation": "^0.1.1675465747",
+    "gifenc": "^1.0.3",
+    "jszip": "^3.10.1",
+    "mp4-muxer": "^5.2.1",
+    "mp4box": "^0.5.2",
+    "sortablejs": "^1.15.6",
+    "upng-js": "^2.1.0",
+    "vue": "^3.5.13",
+    "webm-muxer": "^5.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.3.5"
+  }
+}
